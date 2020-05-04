@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+     *{
+     	margin: 0;
+     	padding: 0;
+     }
+     #container{
+     	margin: 0 auto;
+     	width: 70%;
+     }
+     .main{
+     	width: 300px;
+     	background-color: gray;
+     	float: left;
+     }
+     #main1{
+     	margin-right: 15px;
+     }
+     #main2{
+
+     }
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="main1" class="main">
+			<h2>HTML</h2>
+			<p>超文本标记语言（Hyper Text Markup Language），标准通用标记语言下的一个应用。HTML不是一种编程语言，而是一种标记语言（markup language），是网页制作所必须的“超文本”页面内可以包含图pain、链接、文字，甚至音乐、程序等非文字元素。超文本标记语言包括“头”部分（英语：
+               Head）、和“主体”部分（英语：Body），其中“头”部提供关于网页的信息， “主体”部分提供网页的具体内容。</p>
+		</div>
+		<div id="main2" class="main">
+			<h2>CSS</h2>
+			<p>层叠样式表(英文全称：Cascading Style Sheets),是种用来表现HTML（标准通用标记语言的一个应用)或XML（标准通用标记语言的 个子集）等文件样式的计算机语言。CSS不仅可以静态地修饰网页，还可以配合各种脚本语言动态地对网页各元素进行格式化。 CSS 能够对网页中元素位置的排版进行像素级精确控制， 支持几乎所有的字体字号样式，拥有对网页对象和模型样式编辑的能力。</p>
+		</div>
+	</div>
+</body>
+</html>
